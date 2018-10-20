@@ -62,3 +62,7 @@ while count < length:
 password = "".join([chr(c) for c in password])
 
 print (password)
+dean= ("Congrats! Your new password is:   ")
+print(dean + password)
+
+print("Keep on changing your passwords on a timely based to keep off Intruders!")
