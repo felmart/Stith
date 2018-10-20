@@ -1,2 +1,2 @@
 # Stith
-simple python password generator  (Pa(password)gen(generator)
+Program to auto-create and generate strong passwords 
