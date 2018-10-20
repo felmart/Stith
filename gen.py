@@ -1,10 +1,23 @@
-#!/usr/bin/env python
-#Python 3.7.
-            ##########################################
-      ##                                                       ##
-  ##        ```````Humanoid Architecture````````           ##
-      ##                                                       ##
-           ##########################################
+#!/usr/bin/env python 3.7
+
+import random
+from typing import Any, Union
+
+print('''
+                                                                                                   
+                                                                               
+                                                                                                                          
+                             |                                                           
+                             |                                                           
+                        ___-/_\-___                                                      
+             _____________/( . )\_____________                                           
+            *    |    |  (  \_/  )  |    |    *                                          
+                *|*  *|*  \_-+-_/  *|*  *|*                                              
+                                                                               
+                                                                                                                            
+                                                                               
+
+    ''')
 
 import random
 from typing import Any, Union
@@ -16,7 +29,7 @@ number = 0
 count = 0
 password = []
 
-length = input("Input Length of your choice: ")
+length = input("Input a Length of your choice(e.g 5,10 ): ")
 length = int(length)
 
 while count < length:
