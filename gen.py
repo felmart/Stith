@@ -15,9 +15,6 @@ print('''
 
     ''')
 
-import random
-from typing import Any, Union
-
 symbol = 0
 lower = 0
 upper = 0
@@ -25,7 +22,7 @@ number = 0
 count = 0
 password = []
 
-length = input("Input a Length of your choice(e.g 5,10 ): ")
+length = input("Input a Length of your choice(e.g 5,34 ): ")
 length = int(length)
 
 while count < length:
