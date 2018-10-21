@@ -54,7 +54,6 @@ while count < length:
     count += 1
 password = "".join([chr(c) for c in password])
 
-print (password)
 dean= "Congrats! Your new password is:   "
 print(dean + password)
 
