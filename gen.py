@@ -1,5 +1,6 @@
 #!/usr/bin/env python 3.7
 import random
+from colorama import *
 from typing import Any, Union
 
 print('''                                                                               
@@ -13,6 +14,8 @@ print('''
 
 
     ''')
+
+init(autoreset=True)
 f = "\n"*1
 
 symbol = 0
@@ -61,5 +64,5 @@ password = "".join([chr(c) for c in password])
 print("\n")
 dean= "Congrats! Your new password is:   "
 
-print(dean + password + f)
-print(f+ '~~ Keep on changing your passwords on a timely based to keep off Intruders! ~~',"\t" )
+print(dean +Fore.RED + password + f)
+print(f+Style.BRIGHT + Fore.BLUE + '~~ Keep on changing your passwords on a timely based to keep off Intruders! ~~',"\t" )
