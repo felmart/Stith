@@ -21,8 +21,12 @@ number = 0
 count = 0
 password = []
 
-length = input("Input a Length of your choice(e.g 5,34 ): ")
-length = int(length)
+try:
+    length = raw_input("Input a Length of your choice(e.g 5,34 ): " )
+    length = int(length)
+except NameError:
+    length = input("Input a Length of your choice(e.g 5,34 ): ")
+    length = int(length) 
 
 while count < length:
     rand: Union[int, Any] = random.randint (0,3)
@@ -54,6 +58,7 @@ while count < length:
 password = "".join([chr(c) for c in password])
 
 dean= "Congrats! Your new password is:   "
-print(dean + password)
+f = "\t"
+print(dean + password + f)
 
-print("Keep on changing your passwords on a timely based to keep off Intruders!")
+print("{Keep on changing your passwords on a timely based to keep off Intruders!}")
