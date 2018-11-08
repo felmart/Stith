@@ -13,6 +13,7 @@ print('''
 
 
     ''')
+f = "\n"*1
 
 symbol = 0
 lower = 0
@@ -57,8 +58,8 @@ while count < length:
     count += 1
 password = "".join([chr(c) for c in password])
 
+print("\n")
 dean= "Congrats! Your new password is:   "
-f = "\t"
-print(dean + password + f)
 
-print("{Keep on changing your passwords on a timely based to keep off Intruders!}")
+print(dean + password + f)
+print(f+ '~~ Keep on changing your passwords on a timely based to keep off Intruders! ~~',"\t" )
