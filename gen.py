@@ -28,6 +28,7 @@ password = []
 try:
     length = input("Input a Length of your choice(e.g 5,34 ): ")
     length = int(length)
+    # trying to come up with a way to fix python versions incompatibility issue
 except NameError:
     length = raw_input("Input a Length of your choice(e.g 5,34 ): ")
     length = int(length)
