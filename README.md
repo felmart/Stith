@@ -8,6 +8,7 @@ knowledge inorder to use it. This program on a base level is built for:
   - Those who need a password that won't conflict with other accounts' passwords.
   - Those who are required/ create passwords for different user(s) and require a 
     a simpler way to do it.
+  - Those still learning and enhancing skills through practical experiments.
 
 
 
