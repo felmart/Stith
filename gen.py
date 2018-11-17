@@ -2,6 +2,7 @@
 import random
 from colorama import *
 from typing import Any, Union
+from builtins import input
 
 print('''                                                                               
 
@@ -26,12 +27,10 @@ count = 0
 password = []
 
 try:
-    length = input("Input a Length of your choice(e.g 5,34 ): ")
-    length = int(length)
-    # trying to come up with a way to fix python versions incompatibility issue
+    length = int(input("Input a Length of your choice(e.g 5,34 ): "))
+    # trying to come up with a way to fix py versions incompatibility issue
 except NameError:
-    length = raw_input("Input a Length of your choice(e.g 5,34 ): ")
-    length = int(length)
+    assert isinstance(length, int)
 
 while count < length:
     rand: Union[int, Any] = random.randint(0, 3)
