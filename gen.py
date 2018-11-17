@@ -28,9 +28,8 @@ password = []
 
 try:
     length = int(input("Input a Length of your choice(e.g 5,34 ): "))
-    # trying to come up with a way to fix py versions incompatibility issue
 except NameError:
-    assert isinstance(length, int)
+    assert isinstance(length, int) # native
 
 while count < length:
     rand: Union[int, Any] = random.randint(0, 3)
