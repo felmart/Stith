@@ -15,15 +15,23 @@ knowledge inorder to use it. This program on a base level is built for:
 
 ### Installation
 
-Clone or directly download Stith to a directory of your choice.
+Clone the repo:
+
+  ```
+  git clone https://github.com/stevemats/Stith.git
+  ```
 
 #### Running the application on linux:
   
   - on your favourite terminal change directory using the cd command
     to be in the root directory of Stith, to view it use the ls command
      and simply run the following:
+   ```
+    > cd Stith
   ```
-   > python3 gen.py {hit enter}
+  - then
+  ```
+   > python3 gen.py
    
     (specify the strength and hit enter to generate password}
     
