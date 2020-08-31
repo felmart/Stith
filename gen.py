@@ -11,6 +11,9 @@ except ImportError:
     os.system('python -m pip install --user colorama')
     print ('colorama has been installed, restart Stith.')
 
+from colorama import init
+from colorama import Fore, Style
+
 print('''                                                                               
 
                                    |                                                           
