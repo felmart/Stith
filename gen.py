@@ -1,8 +1,15 @@
 #!/usr/bin/env python 3.7
 import random
-from colorama import *
 from typing import Any, Union
 from builtins import input
+
+try:
+    import coloroma
+except ImportError:
+    import os
+    print ("colorama isn\'t installed, installing now.")
+    os.system('python -m pip install --user colorama')
+    print ('colorama has been installed, restart Stith.')
 
 print('''                                                                               
 
