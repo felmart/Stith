@@ -1,5 +1,6 @@
 #!/usr/bin/env python 3
 import random
+from datetime import datetime as dt
 from typing import Any, Union
 from builtins import input
 
@@ -96,6 +97,8 @@ def pass_gen():
     dean = "Your new password is:   "
 
     print(dean + Fore.GREEN + password + f)
+    print("Password changed at:")
+    print(dt.now())
     print(f + Style.BRIGHT + Fore.BLUE + '~~ Keep on changing your passwords on a timely based to keep off Intruders! ~~',
         "\t")
 
