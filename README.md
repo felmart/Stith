@@ -9,7 +9,7 @@ knowledge inorder to use it. This program on a base level is built for:
     a simpler way to do it.
   - Those still learning and enhancing skills through practical experiments.
 
-![Stith_sAmple](https://user-images.githubusercontent.com/30528167/133064144-4624a1b7-2ef0-449d-b0f5-a1be24e27e20.PNG)
+![Demo](https://user-images.githubusercontent.com/30528167/133239630-7befbf90-5920-43c7-914a-e01f835c6192.PNG)
 
 ### Installation
 

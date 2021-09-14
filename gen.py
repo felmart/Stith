@@ -95,10 +95,11 @@ def pass_gen():
 
     print("\n")
     dean = "Your new password is:   "
+    now = dt.now() #get current time of PS change
+    new = now.strftime("%m/%d/%Y, %H:%M:%S") 
 
     print(dean + Fore.GREEN + password + f)
-    print("Password changed at:")
-    print(dt.now())
+    print('Password changed at:' , new)
     print(f + Style.BRIGHT + Fore.BLUE + '~~ Keep on changing your passwords on a timely based to keep off Intruders! ~~',
         "\t")
 
