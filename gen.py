@@ -37,7 +37,7 @@ def main():
                 pass_gen()
                 break
             elif choice == 2:
-                print("\n"+"GoodBye!")
+                print("\n", "GoodBye!")
                 break
             else:
                 print("Invalid choice. Enter a choice in menu. 1 or 2")
@@ -93,13 +93,12 @@ def pass_gen():
         count += 1
     password = "".join([chr(c) for c in password])
 
-    print("\n")
-    dean = "Your new password is:   "
+    dean = "Your new password is: "
     now = dt.now() #get current time of PS change
     new = now.strftime("%m/%d/%Y, %H:%M:%S") 
 
-    print(dean + Fore.GREEN + password + f)
-    print('Password changed at:' , new)
+    print("\n", dean + Fore.GREEN + password + f)
+    print ("Password changed at: {} ".format(new))
     print(f + Style.BRIGHT + Fore.BLUE + '~~ Keep on changing your passwords on a timely based to keep off Intruders! ~~',
         "\t")
 
