@@ -98,6 +98,7 @@ def pass_gen():
     new = now.strftime("%m/%d/%Y, %H:%M:%S") 
 
     print("\n", dean + Fore.GREEN + password + f)
+    print("Password length: ", "Containes a combination of ->",Fore.GREEN,len(password), "characters")
     print ("Password changed at: {} ".format(new))
     print(f + Style.BRIGHT + Fore.BLUE + '~~ Keep on changing your passwords on a timely based to keep off Intruders! ~~',
         "\t")
