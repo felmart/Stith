@@ -1,5 +1,7 @@
 # Stith
 
+// To Do: Readme update
+
 Stith is a simple to use Password generator. A program that doesn't require confisticated library or
 knowledge inorder to use it. This program on a base level is built for:
 
@@ -29,7 +31,7 @@ Clone the repo:
   ```
   - then
   ```
-   > python3 gen.py
+   > python3 stith.py
    
     (specify the strength and hit enter to generate password}
     
@@ -39,12 +41,12 @@ Clone the repo:
  
   - Change your current directory to Stith..you can 'cd' to the folder
    and confirm being in the folder  using the 'dir' command to confirm 
-   the presence of gen.py. Now run the following:
+   the presence of stith.py. Now run the following:
    
    ```
-   > python gen.py {assuming python 3 is in path and default}
+   > python stith.py {assuming python 3 is in path and default}
                    or
-     python3 gen.py {for those having both 2 and 3 to avoid conflict}
+     python3 stith.py {for those having both 2 and 3 to avoid conflict}
                     next 
      (simply specify the strength of the password e.g 32 to generate pass)
       
