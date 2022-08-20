@@ -1,6 +1,7 @@
 #!/usr/bin/env python 3
 import os
 import random
+import pyperclip
 import urllib.request
 
 
@@ -105,8 +106,9 @@ class pAsswords:
                     password.append(b)
             count += 1
         password = "".join([chr(c) for c in password])
+        pyperclip.copy(password)
 
-        dean = "Your new password is: "
+        dean = "Your new password which has been autocopied to your clipboard is: "
         #get current time of PS change
         now = dt.now()
         new = now.strftime("%m/%d/%Y, %H:%M:%S")
@@ -170,8 +172,9 @@ class pFrase:
         download_wordlist()
         phrase_dict = get_words()
         new_passphrase = get_passphrase(phrase_dict)
+        pyperclip.copy(new_passphrase)
 
-        dean = "Your new passphrase is: "
+        dean = "Your new passphrase which has been autocopied to your clipboard is: "
         # Getting the current time of the password change.
         now = dt.now()
         new = now.strftime("%m/%d/%Y, %H:%M:%S") 
