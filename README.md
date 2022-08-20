@@ -1,8 +1,8 @@
 # Stith
-![Stith your way to security!](https://user-images.githubusercontent.com/30528167/185743020-ea23459e-f472-41cc-a3d8-f1f1d124d817.gif)
+Stith is a simple to use random strong password and passphrase generator program that you can utilize to ensure you have the strongest passwords as well as passphrase at any time of need. This is a program that doesn't require confisticated and heavy libraries or knowledge inorder to use it. Enjoy!
+![Stith your way to security!](https://user-images.githubusercontent.com/30528167/185744168-b9c1e7f8-bf5a-4e43-8be2-c5c5ca979350.png)
 
-Stith is a simple to use Password and passphrase generator. A program that doesn't require confisticated heavy libraries or knowledge inorder to use it. This program on a base level is built for:
-
+This program on a base level is built for:
   - Those, who are in need of a faster way to be creating Secure passwords.
   - Those who change password more often.
   - Those who are create passwords for different user(s) and require a simpler way to do it.
